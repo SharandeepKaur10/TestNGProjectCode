@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-10T11:01:39 GMT-04:00" name="Default suite" finished-at="2022-08-10T11:02:13 GMT-04:00" duration-ms="33693">
+    <groups>
+    </groups>
+    <test started-at="2022-08-10T11:01:39 GMT-04:00" name="Default test" finished-at="2022-08-10T11:02:13 GMT-04:00" duration-ms="33693">
+      <class name="com.testng.code.Id_Is">
+        <test-method signature="validations()[pri:0, instance:com.testng.code.Id_Is@593aaf41]" started-at="2022-08-10T11:01:39 GMT-04:00" name="validations" finished-at="2022-08-10T11:02:00 GMT-04:00" duration-ms="20647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validations -->
+        <test-method signature="validations1()[pri:0, instance:com.testng.code.Id_Is@593aaf41]" started-at="2022-08-10T11:02:00 GMT-04:00" name="validations1" finished-at="2022-08-10T11:02:00 GMT-04:00" depends-on-methods="com.testng.code.Id_Is.validations" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validations1 -->
+        <test-method signature="validations2()[pri:0, instance:com.testng.code.Id_Is@593aaf41]" started-at="2022-08-10T11:02:00 GMT-04:00" name="validations2" finished-at="2022-08-10T11:02:01 GMT-04:00" depends-on-methods="com.testng.code.Id_Is.validations1, com.testng.code.Id_Is.validations" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validations2 -->
+        <test-method signature="validations3()[pri:0, instance:com.testng.code.Id_Is@593aaf41]" started-at="2022-08-10T11:02:01 GMT-04:00" name="validations3" finished-at="2022-08-10T11:02:13 GMT-04:00" depends-on-methods="com.testng.code.Id_Is.validations1, com.testng.code.Id_Is.validations, com.testng.code.Id_Is.validations2" duration-ms="11598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validations3 -->
+      </class> <!-- com.testng.code.Id_Is -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
